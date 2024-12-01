@@ -1,0 +1,11 @@
+$ apt update Get:1 http://termux.net stable InRelease [1684 B] Get:2 http://termux.net stable/main all Packages [3272 B] Err:2 http://termux.net stable/main all Packages   Hash Sum mismatch Get:3 http://termux.net stable/main aarch64 Packages [44.0 kB] Fetched 3272 B in 1s (2748 B/s) Reading package lists... Done$ apt update
+Get:1 http://termux.net stable InRelease [1684 B]
+Get:2 http://termux.net stable/main all Packages [3272 B]
+Err:2 http://termux.net stable/main all Packages
+  Hash Sum mismatch
+Get:3 http://termux.net stable/main aarch64 Packages [44.0 kB]
+Fetched 3272 B in 1s (2748 B/s)
+Reading package lists... Done
+E: Failed to fetch http://termux.net/dists/stable/main/binary-all/Packages.xz  Hash Sum mismatch
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+$http://termux.net/dists/stable/main/binary-all/Packages.xzmaster
